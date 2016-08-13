@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+/** Apple San Fransico Font - Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.body {
+  background-color: lightgray;
+}
+
+.nav {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28583;
+  letter-spacing: .03em;
+  padding: 1em;
+  background: white;
+  box-shadow: 0em -1.75em 3em 1em #888888;
+}
+
+li {
+  color: #999999; 
+  display:inline;
+  margin: 3em;
+  padding: .25em .65em .25em .65em;
+  font-family: "San Francisco", monospace, Helvetica;
+  border-radius: 1em;
+}
+
+li:hover {
+  background: #e6e6e6;
+}
+
+.clockRow {
+   display: table-row;
+   text-align: center; 
+   vertical-align:middle;
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+.LED {
+    -webkit-box-pack: justify;
+    margin-top: 1.25em;
+    display: inline-block;
+    background: #1a1a1a;
+    padding: 1.5em 1em 1.5em 1em;
+    font-family: "Codystar";
+    font-size: 2.25em;
+    letter-spacing: .75em;
+    color: #333333;
+    border: .5em solid gray; 
+}
+
+
+
+.iWatch {
+    margin-top: 0em;
+    display: inline-block;
+    background-image: url("http://i.imgur.com/6CaWY0B.png");
+    background-repeat: no-repeat; 
+    padding: 3.75em 2em 2em 2em;
+    font-family: monospace;
+    font-size: 2.75em;
+    letter-spacing: .75em;
+    color: #262626;
+    border-radius: .45em;
+}
+
+
+.Wood {
+    margin-top: 1.25em;
+    display: inline-block;
+    background-image: url("http://i.imgur.com/doQdrTu.png");
+    background-repeat: no-repeat; 
+    padding: 2em 1.25em 2em 2em;
+    font-family: monospace;
+    font-size: 2.75em;
+    letter-spacing: .75em;
+    color: #2b180b;
+    border-radius: .45em;
+}
+
+.Default {
+    margin-top: 1.25em;
+    display: inline-block;
+    background: #0d0d0d;
+    padding: 2em 1.25em 2em 2em;
+    font-family: monospace;
+    font-size: 2.75em;
+    letter-spacing: .75em;
+    color: #1a1a1a;
+}
+
+.LEDOn{
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 1.25s infinite linear;
+  text-shadow: 0px 0px 10px rgba(0, 100, 255, 1);
+}
+
+.iWatchOn {
+  color: white; 
+  text-shadow: 0px 0px 10px rgba(0, 100, 255, 1);
+}
+
+.WoodOn{
+  color: #c6eeff; 
+  text-shadow: 0px 0px 10px rgba(0, 100, 255, 1);
+}
+
+.DefaultOn {
+  color: white; 
+  text-shadow: 0px 0px 10px rgba(255, 255, 252, 1);
+}
