@@ -2,7 +2,10 @@
 
 A Word Clock created using React.js and Facebook's boilerplate [create-react-app](https://github.com/facebookincubator/create-react-app).
 
-Live Page: [Here](http://Lukeout.github.io/WordClock)
+Live Page: 
+'''HTML
+<a href="http://Lukeout.github.io/WordClock" target="_blank">Here</a>
+'''
 
 ## To Do
 
