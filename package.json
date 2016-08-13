@@ -1,5 +1,6 @@
 {
   "name": "WordClock",
+  "homepage": "http://Lukeout.github.io/WordClock",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
