@@ -8,6 +8,6 @@ Live Page: [Here](https://Lukeout.github.io/WordClock)
 
 * Seperate components into seperate files and import into app.js
 * Convert ES5 to ES6
-* Make On in <Text /> a stateless component and highlightX() return a Boolean
+* Make <Text /> a stateless component and highlightX() return a Boolean and not alter "On"
 * Mobile CSS off for navigator box-shadow
 * Sometime OCLOCK does not show up on hours
