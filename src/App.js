@@ -45,7 +45,7 @@ var Text = React.createClass({
             this.setState({on: true});
         }
         // Special case 12
-        else if (val === 1 && minutes > 30 && hours === 12) {
+        else if (val === 1 && minutes >= 35 && hours === 12) {
             this.setState({on: true});
         }
         else {
